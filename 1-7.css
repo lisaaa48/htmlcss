@@ -10,14 +10,17 @@
 	clear: both;
 }
 
-.list {
+.main {
 	width: 960px;
-	padding-top: 50px;
-	margin: 0 auto;
+	margin: 50px auto;
+}
+.list {
+	margin-bottom: 50px;
 }
 .list-contents {
 	color: #acabab;
 	padding: 20px;
+	list-style: none;
 }
 .list-contents:nth-child(odd) {
 	background-color: #f7f7f7;
