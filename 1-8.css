@@ -3,11 +3,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.position {
-	position: absolute;
-	right: 40px;
-	top: 100px;
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
-.fab {
-	font-size: 32px;
+main {
+	width: 960px;
+	margin: 0 auto;
+}
+.box {
+	width: 30%;
+	margin: 50px 5% 50px 0;
+	float: left
+}
+.box img {
+	width: 100%;
+}
+.box:nth-child(3) {
+	margin: 50px 0 50px 0;
 }
