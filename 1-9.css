@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+main {
+	width: 960px;
+	margin: 0 auto;
+}
+.box {
+	border: 1px solid #eee;
+	position:relative;
+	width: 30%;
+	margin: 50px 5% 50px 0;
+	padding: 5px;
+	float: left
+}
+.step {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #fff;
+	padding: 5px;
+	background-color: orange;
+}
+.box img {
+	width: 100%;
+}
+.box:nth-child(3) {
+	margin: 50px 0 50px 0;
+}
